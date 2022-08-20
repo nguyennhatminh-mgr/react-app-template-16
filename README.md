@@ -1,6 +1,26 @@
-# Getting Started with Create React App
+# React app common template with:
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+- React newest version (18)
+- Typescript
+- TailwindCSS, HeadlessUI, HeroIcon
+- Redux toolkit
+- Husky
+- Eslint
+- Prettier
+- React router v6
+- React testing library
+- Storybook
+
+## Versions
+
+- This app use Node 16.17.0
+- Npm: 8.15.0
+- Please install correct node version to run this project
+
+### Run `nvm use` before run anything to run this project with correct node version.
+
+- If you have not installed `nvm` yet, please [install `nvm`](https://github.com/nvm-sh/nvm/blob/master/README.md#installing-and-updating)
+- If you run `nvm use` and it say that you don't have node version `v16.17.0`, you must run `nvm install 16.17.0` to install node version `v16.17.0`.
 
 ## Available Scripts
 
@@ -14,33 +34,32 @@ Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
 The page will reload if you make edits.\
 You will also see any lint errors in the console.
 
-### `npm test`
+### `npm run test`
 
 Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
 
 ### `npm run build`
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+### `npm run build:dev`
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+### `npm run build:staging`
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+### `npm run build:production`
+
+- Builds the app for production to the `build` folder.\
+  It correctly bundles React in production mode and optimizes the build for the best performance.
+- Create correct .env file to build correct environment.
 
 ### `npm run eject`
 
 **Note: this is a one-way operation. Once you `eject`, you can’t go back!**
 
-If you aren’t satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+### `npm run lint`
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you’re on your own.
+### `npm run lint:fix`
 
-You don’t have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn’t feel obligated to use this feature. However we understand that this tool wouldn’t be useful if you couldn’t customize it when you are ready for it.
+### `npm run storybook`
 
-## Learn More
+- View all components in this project.
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
+### `npm run build-storybook`
